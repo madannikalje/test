@@ -12,7 +12,7 @@ app.get('/', function(req, res){
 });
 
 const host = '0.0.0.0'
-const port = 3000
+const port = 80
 
 http.listen(port, host,function(){
     console.log(`listening on ${host}:${port}`);
